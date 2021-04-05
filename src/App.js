@@ -1,5 +1,5 @@
-import "carbon-components/css/carbon-components.css";
 import Login from "./Login";
+import "./index.scss";
 
 function App() {
   return <Login></Login>;
