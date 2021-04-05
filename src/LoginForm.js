@@ -1,13 +1,9 @@
 import { Button, TextInput } from "carbon-components-react";
-import styled from "styled-components";
-
-const Padding = styled.div`
-  padding: 20px;
-`;
+import "./LoginForm.scss";
 
 const LoginForm = () => {
   return (
-    <Padding>
+    <div className="padding">
       <TextInput
         id="username"
         labelText="Username"
@@ -19,7 +15,7 @@ const LoginForm = () => {
       />
       <TextInput.ControlledPasswordInput helperText="Password" />
       <Button type="submit">Submit</Button>
-    </Padding>
+    </div>
   );
 };
 

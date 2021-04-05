@@ -11,11 +11,11 @@ const AppContainer = styled.div`
 
 const Box = styled.div`
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  height: 50vh;
-  max-width: 500px;
-  min-width: 300px;
+  /* height: 50vh; */
+  max-width: 90%;
+  min-width: 400px;
   min-height: 300px;
-  width: 50vw;
+  /* width: 50vw; */
 `;
 
 const LogoContainer = styled.div`

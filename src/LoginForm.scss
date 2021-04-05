@@ -1,0 +1,8 @@
+@import "~@carbon/layout/scss";
+
+.padding {
+  > *,
+  > button {
+    margin: $spacing-05;
+  }
+}
