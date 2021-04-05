@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "carbon-components/css/carbon-components.css";
 
 function App() {
   return (
