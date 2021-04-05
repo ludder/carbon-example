@@ -1,11 +1,17 @@
-import logo from "./logo.svg";
+import logo from "./cloudnatix-logo.png";
 import "carbon-components/css/carbon-components.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={logo}
+          className="App-logo"
+          alt="logo"
+          width={200}
+          heigh={200}
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import "carbon-components/css/carbon-components.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
